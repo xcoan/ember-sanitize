@@ -9,7 +9,7 @@ An Ember CLI addon to sanitize user provided content using [sanitize.js](https:/
 Install this addon via npm:
 
 ```
-npm install --save-dev ember-sanitize
+npm install --save-dev xcoan/ember-sanitize
 ```
 
 Then run the generator to install `sanitize.js`:

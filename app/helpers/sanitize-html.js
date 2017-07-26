@@ -7,7 +7,7 @@ export default Ember.Helper.extend({
     let config, configName = params[1];
     if (configName) {
       //lookup the config
-      config = getOwner(this).lookup('sanitizer:' + configName);
+      config = this.container.lookup('sanitizer:' + configName);
     }
 
     let sanitized = sanitize(params[0], config);
